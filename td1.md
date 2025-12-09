@@ -6,7 +6,7 @@ Ce document guide les étudiants dans la configuration de leur environnement de 
 
 -   Configurer correctement l'environnement Java (JDK 21).
     
--   Créer le projet **`player-service`** (Spring Boot 3.x).
+-   Créer le projet **`player-service`** (Spring Boot 4.0).
     
 -   Implémenter l'Entité, le Repository, le Service et le Contrôleur du Joueur.
     
