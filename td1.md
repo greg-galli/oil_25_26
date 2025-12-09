@@ -145,4 +145,16 @@ INSERT INTO player (pseudo, score) VALUES ('Charlie', 200);
 
 3. Vérifiez que les méthodes que vous avez réalisé dans le service fonctionnent bien soit en créant des méthodes de contrôleur qui les appellent, soit en exécutant directement des appels vous même au lancement de l'application avec quelques logs.
 
+### 8. Rendu
 
+Le rendu se fait exclusivement sur Github Classroom, voici les différents dépôts pour les différents groupes de TD :
+
+Groupe de TD1 : https://classroom.github.com/a/OS70knsH
+Groupe de TD2 : https://classroom.github.com/a/5azKubG6
+Groupe de TD3 : https://classroom.github.com/a/U2uIBiIL
+
+A chaque rendu, vous devrez penser à ajouter un readme et ce dernier devra préciser l'environnement que vous avez utilisé (versions de java / maven / gradle) ainsi que la liste de ce que vous avez réalisé avec des précisions afin que l'on puisse facilement tester votre production.
+
+Sans readme, votre projet ne sera pas corrigé. 
+
+Ecrivez votre readme à la main afin qu'il ne soit pas trop verbeux.
