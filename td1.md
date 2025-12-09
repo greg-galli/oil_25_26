@@ -46,7 +46,7 @@ Utilisez le **Spring Initializr** (`start.spring.io`) ou l'assistant d'IntelliJ 
 
 -   **Nom du Service :** `player-service`
     
--   **Version de Spring Boot :** 3.x (vérifiez la dernière version stable, généralement 3.3.x).
+-   **Version de Spring Boot :** 4.0.
     
 -   **Dépendances Requises :**
     
