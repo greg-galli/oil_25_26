@@ -10,7 +10,7 @@ Ce document guide les étudiants dans la configuration de leur environnement de 
     
 -   Implémenter l'Entité, le Repository, le Service et le Contrôleur du Joueur.
     
--   Exposer deux endpoints REST pour la consultation des joueurs (GET all / GET by ID).
+-   Exposer trois endpoints REST pour la consultation des joueurs (GET all / GET by ID).
     
 -   Charger des données initiales via un `CommandLineRunner` **OU** un fichier SQL.
     
