@@ -203,10 +203,26 @@ Pour valider cette étape, suivez la séquence suivante :
 5.  **Résultat attendu :** Vous devez recevoir un JSON unique contenant à la fois les informations du joueur (venant du service 1) et une liste de 2 questions (venant du service 2).
     
 
-### Gestion des Erreurs (Bonus)
+### 1. Gestion des Erreurs
 
 Que se passe-t-il si le joueur n'existe pas ?
 
 -   Le `RestClient` va lancer une exception `HttpClientErrorException`.
     
 -   Observez comment l'erreur se propage. Essayez d'ajouter un `try/catch` dans le `GameService` pour renvoyer une erreur 404 propre si le microservice joueur renvoie une 404.
+
+### 2. Rendu
+
+Le rendu se fait exclusivement sur Github Classroom, voici les différents dépôts pour les différents groupes de TD :
+
+-   Groupe de TD1 :  [https://classroom.github.com/a/OS70knsH](https://classroom.github.com/a/OS70knsH)
+-   Groupe de TD2 :  [https://classroom.github.com/a/5azKubG6](https://classroom.github.com/a/5azKubG6)
+-   Groupe de TD3 :  [https://classroom.github.com/a/U2uIBiIL](https://classroom.github.com/a/U2uIBiIL)
+
+Ajoutez vos **nouvelles réalisations dans le readme** puis **rajoutez votre travail au dépôt** existant, enfin **finalisez votre livraison  en ajoutant un tag** ! 
+
+```bash
+git tag td3
+# puis 
+git push origin --tags
+```
