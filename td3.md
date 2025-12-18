@@ -138,7 +138,7 @@ L'objectif est de créer un endpoint : `POST /api/games/start/{playerId}?nbQuest
     
 3.  Il appelle le `question-catalog-service` pour récupérer une liste de X questions (ou toutes les questions pour simplifier dans un premier temps).
     
-4.  Il agrège ces données dans un objet réponse `GameStatus` (ou `GameSession`).
+4.  Il agrège ces données dans un objet réponse `GameDTO` (ou `GameSession`).
     
 
 ### 2. Implémentation du GameService
