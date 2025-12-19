@@ -96,7 +96,7 @@ public class ClientConfig {
 
 ### 2. Création des Connecteurs (Services Clients)
 
-Créez des services dans le `game-engine` dont le seul rôle est d'appeler l'extérieur.
+Créez des services dans le `game-engine-service` dont le seul rôle est d'appeler l'extérieur.
 
 **Exemple pour le Joueur (`PlayerClient`) :**
 
