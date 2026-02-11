@@ -39,7 +39,7 @@ public void notifyGameUpdate(String gameId, GameEvent event) {
 }
 ```
 
-Mettez à jour vos méthodes `startGame` et `endGame` pour utiliser cette nouvelle méthode avec l'ID de la partie (le UUID généré au TD3).
+Mettez à jour vos méthodes `startGame` et `endGame` pour utiliser cette nouvelle méthode avec l'ID de la partie (vous allez devoir remplacer l'identifiant de la partie qui était un UUID random (cf. TD3) par une valeur que vous transmettrez au serveur vous même ex: gameId=partie-1 | gameId=partie-2 etc.)
 
 ### 3. Modification du Client (Frontend)
 
@@ -148,6 +148,11 @@ Pour valider ce TD, vous devez réaliser la démonstration suivante :
     -   Ouvrez **Deux Navigateurs** différents (Client A et Client B).
     -   Client A : Saisit Game ID "partie-1" et Player ID "10". Se connecte.
     -   Client B : Saisit Game ID "partie-1" et Player ID "20". Se connecte.
+    	- _Note importante : jusqu'à maintenant, un seul joueur pouvait se connecter à une partie, pour gérer ce cas vous avez 2 solutions :_
+       
+       		_1) Rendre la partie accessible à plusieurs joueurs ou..._
+       
+       		_2) Faire en sorte que l'on puisse rejoindre la partie mais uniquement pour l'aspect communication (websocket), sans toucher à la structure d'une partie qui conserve un seul "joueur", c'est sans doutes la solution la plus simple car elle n'implique pas de modification de votre projet en profondeur_
     -   Ouvrez un **Troisième Navigateur** (Client C).
     -   Client C : Saisit Game ID "partie-2". Se connecte.
    
